@@ -69,21 +69,21 @@ git에 코드만 올려놓으면 알아서 테스트와 빌드 수행하고, 결
    - 다시 돌려놔야함 주의
 3. 배포
 
-![](../image/jenkins/1.png)
+![](../image/jenkins/1.PNG)
 
 - 빌드, 배포할 프로젝트 선택
 
-![](../image/jenkins/2.png)
+![](../image/jenkins/2.PNG)
 
 - `Build with Parameter` 클릭
 
-![](../image/jenkins/3.png)
+![](../image/jenkins/3.PNG)
 
 - ARG
   - dist : 서버
   - sync : 정적 파일
 
-![](../image/jenkins/4.png)
+![](../image/jenkins/4.PNG)
 
 - 결과 확인!
 
