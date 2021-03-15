@@ -83,7 +83,7 @@ git에 코드만 올려놓으면 알아서 테스트와 빌드 수행하고, 결
   - dist : 서버
   - sync : 정적 파일
 
-![](../image/jenkins/4.PNG)
+![](../image/jenkins/4.png)
 
 - 결과 확인!
 
