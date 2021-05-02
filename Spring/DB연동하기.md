@@ -82,4 +82,4 @@ spring.datasource.password=[password]
 
 어플리케이션을 구동하면 아래와 같이 확인할 수 있다!
 
-![](../image/db.png)
+![](../image/db.PNG)
