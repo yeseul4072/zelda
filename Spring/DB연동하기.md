@@ -34,7 +34,7 @@ Spring Boot는 기본적으로 JDBC를 제공하며, v2.0부터 HikariCP라는 D
 
   이때 DBCP를 이용하면  **WAS 실행 시 미리 일정량의 `DB Connection` 객체를 생성하고 `Pool`이라는 공간에 저장해두었다가 DB 연결 요청이 있을때마다 `Pool`에서 `Connection` 객체를 가져다 쓰고 처리가 끝나면 반환**하는 방식으로 1~2번의 과정을 효율적으로 처리한다. 
 
-  ![출처: https://linked2ev.github.io/spring/2019/08/14/Spring-3-%EC%BB%A4%EB%84%A5%EC%85%98-%ED%92%80%EC%9D%B4%EB%9E%80/](..\image\cp.png)
+  ![출처: https://linked2ev.github.io/spring/2019/08/14/Spring-3-%EC%BB%A4%EB%84%A5%EC%85%98-%ED%92%80%EC%9D%B4%EB%9E%80/](..\image\db-connection.png)
 
   
 
