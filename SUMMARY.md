@@ -1,10 +1,9 @@
 # Table of contents
 
 * [About](README.md)
-<<<<<<< HEAD
 * 기타
-  * [빌드와 배포](기타/빌드와 배포.md)
-  * [CD, CD](기타/CI, CD.md)
+  * [빌드와 배포](etc/빌드와 배포.md)
+  * [CD, CD](etc/CI, CD.md)
 * Spring
   * [DB연동하기](Spring/DB연동하기.md)
   
