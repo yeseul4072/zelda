@@ -17,7 +17,7 @@
   - [Huton](Project/Huton/README.md)
     - [DB연동하기](Project/Huton/DB연동하기.md)
     - [스프링부트로 웹 배포하기1](Project/Huton/스프링부트로 웹 배포하기1.md)
-    - [스프링부트로 웹 배포하기2](Project/Huton/스프링부트로 웹 배포하기2)
+    - [스프링부트로 웹 배포하기2](Project/Huton/스프링부트로 웹 배포하기2.md)
 - 기타
   - [빌드와 배포](etc/build.md)
   - [CD, CD](etc/ci-cd.md)
