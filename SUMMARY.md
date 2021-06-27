@@ -13,6 +13,7 @@
   - [객체지향 프로그래밍 - this](java/객체지향 프로그래밍 - this.md)
 - Database
   - [트랜잭션](database/트랜잭션.md)
+- Algorithm
 - Project
   - [Huton](Project/Huton/README.md)
     - [DB연동하기](Project/Huton/DB연동하기.md)
