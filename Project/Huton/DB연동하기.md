@@ -1,15 +1,4 @@
-개발 환경
-
-- openjdk 11
-- java 11
-- Framework: Springboot v2.4.3
-- Build Tool: Gradle v6.8.3
-- RDBMS: MariaDB
-  - Persistence Framework: Mybatis
-
-
-
-## 배경 지식
+## Springboot에 DB연동하기
 
 ### JDBC? DBCP?
 
@@ -34,7 +23,7 @@ Spring Boot는 기본적으로 JDBC를 제공하며, v2.0부터 HikariCP라는 D
 
   이때 DBCP를 이용하면  **WAS 실행 시 미리 일정량의 `DB Connection` 객체를 생성하고 `Pool`이라는 공간에 저장해두었다가 DB 연결 요청이 있을때마다 `Pool`에서 `Connection` 객체를 가져다 쓰고 처리가 끝나면 반환**하는 방식으로 1~2번의 과정을 효율적으로 처리한다. 
 
-  ![출처: https://linked2ev.github.io/spring/2019/08/14/Spring-3-%EC%BB%A4%EB%84%A5%EC%85%98-%ED%92%80%EC%9D%B4%EB%9E%80/](..\image\db-connection.png)
+  ![출처: https://linked2ev.github.io/spring/2019/08/14/Spring-3-%EC%BB%A4%EB%84%A5%EC%85%98-%ED%92%80%EC%9D%B4%EB%9E%80/](..\../image\db-connection.png)
 
   
 
@@ -44,7 +33,7 @@ Spring Boot는 기본적으로 JDBC를 제공하며, v2.0부터 HikariCP라는 D
 
 JDBC만을 사용하는 어플리케이션은 Application Modules에서 JDBC Interfaces를 바로 호출하지만 Mybatis를 사용하는 경우 이 Mybatis가 JDBC Interfaces를 감싸서 개발자가 조금 더 편리하게 DB에 접근할 수 있도록 도와준다. 
 
-![](../image/mybatis-architecture.png)
+![](../../image/mybatis-architecture.png)
 
 
 
@@ -82,4 +71,4 @@ spring.datasource.password=[password]
 
 어플리케이션을 구동하면 아래와 같이 확인할 수 있다!
 
-![](../image/db.PNG)
+![](../../image/db.PNG)
