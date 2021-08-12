@@ -12,8 +12,10 @@
   - [객체지향 프로그래밍 - 생성자, 정보 은닉](java/객체지향 프로그래밍 - 생성자, 정보 은닉.md)
   - [객체지향 프로그래밍 - this](java/객체지향 프로그래밍 - this.md)
   - [객체지향 프로그래밍 - 변수 scope와 static](java/객체지향 프로그래밍 - 변수 scope와 static.md)
+  - [객체지향 프로그래밍 - 상속](java/객체지향 프로그래밍 - 상속.md)
   - [배열](java/배열.md)
   - [열거형](java/열거형.md)
+  - [String클래스](java/String클래스.md)
 - Database
   - [트랜잭션](database/트랜잭션.md)
 - Algorithm
